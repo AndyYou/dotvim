@@ -55,3 +55,4 @@ Hotkey:
 * [vim-indent-object](https://github.com/michaeljsmith/vim-indent-object)
 * [matchit](https://github.com/vim-scripts/matchit.zip)
 * [typescript-vim](https://github.com/leafgarland/typescript-vim)
+* [syntastic](https://github.com/scrooloose/syntastic)
