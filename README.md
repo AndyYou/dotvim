@@ -56,3 +56,4 @@ Hotkey:
 * [matchit](https://github.com/vim-scripts/matchit.zip)
 * [typescript-vim](https://github.com/leafgarland/typescript-vim)
 * [syntastic](https://github.com/scrooloose/syntastic)
+* [emmet-vim](https://github.com/mattn/emmet-vim/)

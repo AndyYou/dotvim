@@ -70,3 +70,6 @@
 	path = bundle/syntastic
 	url = git@github.com:scrooloose/syntastic.git
   ignore = dirty
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git

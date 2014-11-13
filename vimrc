@@ -23,13 +23,16 @@ set hidden
 set smartindent
 set autoindent
 set showmode
+set textwidth=200
+set formatoptions+=mM
+set nowrap
 let mapleader=","
 set timeout timeoutlen=1000
 set list
 set list listchars=tab:\|\ 
-highlight Whitespace cterm=underline gui=underline ctermbg=NONE guibg=NONE ctermfg=yellow guifg=yellow
-autocmd ColorScheme * highlight Whitespace gui=underline ctermbg=NONE guibg=NONE ctermfg=yellow guifg=yellow
-match Whitespace /  \+/
+" highlight Whitespace cterm=underline gui=underline ctermbg=NONE guibg=NONE ctermfg=yellow guifg=yellow
+" autocmd ColorScheme * highlight Whitespace gui=underline ctermbg=NONE guibg=NONE ctermfg=yellow guifg=yellow
+" match Whitespace /  \+/
 
 filetype on
 filetype indent on
@@ -56,13 +59,13 @@ endtry
 
 " KEY MAPPING
 map <silent> <C-n> :NERDTreeToggle<CR>
-noremap <C-/> <leader>cm
+" noremap <C-/> <leader>cm
 noremap <CR> :nohlsearch<CR>
 " next and prev tab
 noremap <F7> gT
 noremap <F8> gt
-nnoremap <Space> za
-imap <C-Return> <CR><CR><C-o>k<Tab>
+" nnoremap <Space> za
+" imap <C-Return> <CR><CR><C-o>k<Tab>
 
 " NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
