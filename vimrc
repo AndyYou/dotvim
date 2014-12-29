@@ -52,6 +52,7 @@ set incsearch 	" incremental search
 syntax enable
 set t_Co=256
 set background=dark
+set guifont=Monaco\ for\ Powerline:h12
 try
 	colorscheme solarized
 catch
@@ -64,6 +65,7 @@ noremap <CR> :nohlsearch<CR>
 " next and prev tab
 noremap <F7> gT
 noremap <F8> gt
+set pastetoggle=<F2>
 " nnoremap <Space> za
 " imap <C-Return> <CR><CR><C-o>k<Tab>
 
@@ -77,8 +79,8 @@ let g:airline_powerline_fonts = 1
 " Vim indent guides
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=0 ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=bg ctermbg=bg
+" autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=1 ctermbg=1
+" autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=bg ctermbg=bg
 
 
 " set the cursor to a vertical line in insert mode and a solid block

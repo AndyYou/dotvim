@@ -57,3 +57,4 @@ Hotkey:
 * [typescript-vim](https://github.com/leafgarland/typescript-vim)
 * [syntastic](https://github.com/scrooloose/syntastic)
 * [emmet-vim](https://github.com/mattn/emmet-vim/)
+* [vim-jsx](https://github.com/mxw/vim-jsx)
