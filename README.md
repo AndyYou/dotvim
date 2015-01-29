@@ -59,3 +59,4 @@ Hotkey:
 * [emmet-vim](https://github.com/mattn/emmet-vim/)
 * [vim-jsx](https://github.com/mxw/vim-jsx)
 * [tabular](https://github.com/godlygeek/tabular)
+* [vim-rails](https://github.com/tpope/vim-rails)
